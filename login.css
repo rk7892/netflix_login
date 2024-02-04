@@ -1,32 +1,37 @@
-body{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/assets/background_img.jpg);
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assert/background_img.jpg);
     font-family: sans-serif;
 }
-.login-logo{
+
+.login-logo {
     width: 10%;
     height: 10%;
     margin-top: 1.5rem;
     margin-left: 10rem;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
     margin-bottom: 3rem;
 }
-.login{
-    background-color: rgba(0,0,0,0.7);
+
+.login {
+    background-color: rgba(0, 0, 0, 0.7);
     width: 25%;
     min-height: 670px;
     padding: 0 3rem 3rem 3rem;
     border-radius: 6px;
 }
-.login-heading{
+
+.login-heading {
     font-size: 2.5rem;
     color: white;
 }
-.userLogin{
+
+.userLogin {
     width: 100%;
     height: 3rem;
     background: rgba(70, 90, 126, 0.4);
@@ -36,7 +41,8 @@ body{
     font-size: 1rem;
     margin-bottom: 1.5rem;
 }
-.loginButton{
+
+.loginButton {
     width: 100%;
     height: 2.5rem;
     border-radius: 0.5rem;
@@ -46,88 +52,107 @@ body{
     color: white;
     margin-bottom: 2rem;
 }
-form a{
+
+form a {
     text-align: center;
     color: white;
     text-decoration: none;
     cursor: pointer;
     border-bottom: 3rem;
 }
-.login-footer{
+
+.login-footer {
     display: flex;
     margin-top: 5rem;
 }
-.login-footer input{
+
+.login-footer input {
     height: 18px;
     width: 18px;
     margin-right: 1rem;
 }
-.login-footer label{
+
+.login-footer label {
     color: white;
 }
-.login-signup{
-    color: rgba(255,255,255,0.7);
+
+.login-signup {
+    color: rgba(255, 255, 255, 0.7);
 }
-.login-signup a{
+
+.login-signup a {
     color: white;
     padding-left: 5px;
     text-decoration: none;
     font-size: 18px;
     margin-bottom: 1rem;
 }
-.login-learnmore{
+
+.login-learnmore {
     color: white;
     font-size: 14px;
     line-height: 20px;
 }
-.login-learnmore a{
+
+.login-learnmore a {
     text-decoration: none;
 }
-.netflix-footer{
-    background-color: rgba(0,0,0,0.7);
+
+.netflix-footer {
+    background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
 }
-.netflix-footer__main{
+
+.netflix-footer__main {
     padding: 3rem 5rem 3rem 10rem;
 }
-.netflix-footer__call{
-    color: rgba(255,255,255,0.7);
+
+.netflix-footer__call {
+    color: rgba(255, 255, 255, 0.7);
     font-size: 1rem;
     margin-bottom: 2rem;
     padding-left: 40px;
 }
-.netflix-footer__help-ul-faq li{
-    color: rgba(255,255,255,0.7);
+
+.netflix-footer__help-ul-faq li {
+    color: rgba(255, 255, 255, 0.7);
     list-style-type: none;
     padding-right: 200px;
 }
-.netflix-footer__help-ul-faq{
+
+.netflix-footer__help-ul-faq {
     display: flex;
     margin-bottom: 2rem;
 }
-.netflix-footer__help-ul-faq li a{
-    color: rgba(255,255,255,0.7);
+
+.netflix-footer__help-ul-faq li a {
+    color: rgba(255, 255, 255, 0.7);
     text-decoration: underline;
 }
-.netflix-footer__help-ul-cookie li{
-    color: rgba(255,255,255,0.7);
+
+.netflix-footer__help-ul-cookie li {
+    color: rgba(255, 255, 255, 0.7);
     list-style-type: none;
     padding-right: 90px;
 }
-.netflix-footer__help-ul-cookie{
+
+.netflix-footer__help-ul-cookie {
     display: flex;
     margin-bottom: 2rem;
 }
-.netflix-footer__help-ul-cookie li a{
-    color: rgba(255,255,255,0.7);
+
+.netflix-footer__help-ul-cookie li a {
+    color: rgba(255, 255, 255, 0.7);
     text-decoration: underline;
 }
-.netflix-footer__dropdown{
-    background-color: rgba(101, 101, 101,0.2);
+
+.netflix-footer__dropdown {
+    background-color: rgba(101, 101, 101, 0.2);
     color: white;
     padding: 10px;
     border-radius: 4px;
 }
+
 .netflix-footer__form {
     padding-left: 40px;
 }
