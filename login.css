@@ -3,16 +3,19 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assert/background_img.jpg);
     font-family: sans-serif;
 }
+
 .login-logo {
     width: 10%;
     height: 10%;
     margin-top: 1.5rem;
     margin-left: 10rem;
 }
+
 .container {
     display: flex;
     justify-content: center;
@@ -20,6 +23,7 @@ body {
     margin-top: 2rem;
     margin-bottom: 3rem;
 }
+
 .login {
     background-color: rgba(0, 0, 0, 0.7);
     width: 25%;
@@ -157,22 +161,25 @@ form a {
     padding: 10px;
     border-radius: 4px;
 }
-.test{
+
+.test {
     color: red;
 }
-.hr-line{
+
+.hr-line {
     display: none;
 }
 
 /* media query */
 
-@media screen and (max-width:821px){
+@media screen and (max-width:820px) {
     .login-logo {
         width: 20%;
         height: 20%;
         margin-top: 1.5rem;
         margin-left: 2rem;
     }
+
     .container {
         display: flex;
         justify-content: center;
@@ -180,6 +187,7 @@ form a {
         margin-top: 1rem;
         margin-bottom: 3rem;
     }
+
     .login {
         background-color: rgba(0, 0, 0, 0.7);
         width: 50%;
@@ -187,81 +195,103 @@ form a {
         padding: 0 3rem 3rem 3rem;
         border-radius: 6px;
     }
+
     .login-heading {
         font-size: 2rem;
     }
+
     .netflix-footer__main {
         padding: 2rem;
     }
+
     .netflix-footer__call {
         padding-left: 1px;
     }
+
     .netflix-footer__help-ul-faq li {
         padding-right: 70px;
     }
-    .hr-line{
+
+    .hr-line {
         display: none;
     }
 }
-@media screen and (max-width: 600px){
-    body{
+
+/* media query 600px */
+@media screen and (max-width: 600px) {
+    body {
         background-image: none;
         background-color: black;
         font-family: sans-serif;
     }
+
     .login {
         width: 100%;
         min-height: 500px;
         padding: 2rem;
         padding-top: 0;
     }
+
     .login-heading {
         font-size: 2rem;
         padding-top: 0;
         padding-bottom: 1rem;
     }
+
     form a {
         cursor: pointer;
     }
+
     .login-footer {
         display: flex;
         margin-top: 3rem;
         margin-bottom: 1rem;
     }
+
     .login-signup {
         margin-bottom: 0rem;
     }
+
     .netflix-footer__help-ul-faq {
         display: flex;
         flex-direction: column;
     }
+
     .netflix-footer__help-ul-faq li a {
         text-decoration: none;
         padding-top: 1rem;
     }
-    .netflix-footer__help-ul-faq li{
+
+    .netflix-footer__help-ul-faq li {
         padding-bottom: 1rem;
     }
-    .netflix-footer__help-ul-cookie{
+
+    .netflix-footer__help-ul-cookie {
         display: flex;
         flex-direction: column;
     }
-    .netflix-footer__help-ul-cookie li a{
+
+    .netflix-footer__help-ul-cookie li a {
         text-decoration: none;
     }
-    .netflix-footer__help-ul-cookie li{
+
+    .netflix-footer__help-ul-cookie li {
         padding-bottom: 1rem;
     }
+
     .netflix-footer__form {
         padding-left: 0px;
     }
-    .container{
+
+    .container {
         border-bottom: 0rem;
     }
+
     .netflix-footer__main {
-    padding: 0rem 0rem 1rem 3rem;
+        padding: 0rem 0rem 1rem 3rem;
     }
-    .login{
+
+    .login {
         padding: 0rem 3rem 0rem 3rem;
     }
 
